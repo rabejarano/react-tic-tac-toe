@@ -21,7 +21,7 @@ const Start = (props: Props) => {
   };
   return (
     <div>
-      <h1>React Tic Tac Toe</h1>
+      <h1>React Triki</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="player1">Player 1</label>
@@ -41,7 +41,7 @@ const Start = (props: Props) => {
         </div>
         <div>
           <button type="submit" disabled={!canStart}>
-            Start
+            Iniciar
           </button>
         </div>
       </form>

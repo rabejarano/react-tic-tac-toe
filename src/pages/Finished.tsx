@@ -10,7 +10,7 @@ const Finished = (props: Props) => {
         {name && `Jugador ${name} gano el juego`}
         {!name && "Es un Empate"}
       </h1>
-      <button onClick={restart}>Restart</button>
+      <button onClick={restart}>Reiniciar</button>
     </div>
   );
 };
