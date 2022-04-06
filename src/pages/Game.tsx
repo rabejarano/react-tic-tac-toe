@@ -8,8 +8,7 @@ const Game = (props: Props) => {
   const styles = {
     board: {
       display: "grid",
-      gridTemplateColumns: "repeat(3, 1fr)",
-      width: "300px"
+      gridTemplateColumns: "repeat(3, 100px)",
     }
   };
   return (

@@ -24,7 +24,7 @@ const Start = (props: Props) => {
       <h1>React Triki</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="player1">Player 1</label>
+          <label htmlFor="player1">Jugador 1</label>
           <input
             type="text"
             value={players[0]}
@@ -32,7 +32,7 @@ const Start = (props: Props) => {
           />
         </div>
         <div>
-          <label htmlFor="player2">Player 2</label>
+          <label htmlFor="player2">Jugador 2</label>
           <input
             type="text"
             value={players[1]}
